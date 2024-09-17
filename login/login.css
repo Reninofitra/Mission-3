@@ -1,0 +1,195 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "LATO";
+    }
+    
+    body {
+      width: 100%;
+      height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background-image: url("../assets/masuk-image.jpeg");
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+    }
+
+    a {
+      text-decoration: none;
+    }
+    
+    .wrapper { 
+      width: 529px;
+      padding: 37px 40px; 
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      border: 1px solid black;
+      background: rgba(24, 26, 28, 0.84);
+      color: #fff;
+      border-radius: 16px;
+    }
+    .wrapper .title h1 {
+        font-size: 50px;
+        text-align: center;
+        padding: 8px;
+    }
+    .wrapper h2{
+        font-size: 30px;
+        text-align: center;
+        padding: 15px; 
+    }
+    
+    .input-box{
+        width: 100%;
+        margin: 40px 5px 15px 0px;
+        font-size: 18px;
+    
+    }
+    .input-box input {
+        width: 100%;
+        height: 100%;
+        background: transparent;
+        border: none;
+        outline: none;
+        border: 2px solid;
+        border-radius: 40px;
+        font-size: 16px;
+        color: #fff;
+        padding: 15px 40px 15px 20px;
+    }
+    
+    .input-type{
+        color: #fff;
+    }
+    
+    .input-box input {
+      border-color: white;
+      margin-top: 5px;
+    }
+    
+    .wrapper .title {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    
+    .wrapper .title h1 {
+      font-family: 'Londrina Solid', sans-serif;
+    }
+    
+    .wrapper .remember-forgot{
+        display: flex;
+        justify-content: space-between;
+        font-size: 14,5px;
+        margin: -15px 0 15px;
+        padding: 10px;
+        color: white;
+        font-size: 14px;
+    }
+    
+    .wrapper .remember-forgot p a{
+      color: white;
+      font-size: 14px;
+    }
+
+    .wrapper .remember-forgot a{
+      color: white;
+      font-weight: 600;
+     
+    }
+
+    .remember-forgot{
+        display: flex;
+       justify-content: space-between;
+       margin-top: 15px;
+       color: #fff;
+       text-decoration: none;
+    }
+    
+    .input-box .input-password {
+      margin-top: 30px;
+      margin-bottom: 15px;
+    }
+    .btn{
+      display: flex;
+      flex-direction: column; 
+      width: 100%; 
+      align-items: center;
+      justify-content: center;
+      padding: 37px 40px; 
+    }
+
+    .Google{
+        width:450px;
+        height: 100%;
+        text-align: center; 
+        text-decoration: none; 
+        align-items: center;
+        color: white; 
+        border: 2px #3D4142 solid; 
+        border-radius: 40px; 
+        padding: 15px 40px 15px 20px;
+    }   
+    .masuk{
+        width: 450px;
+        height: 100%;
+        text-align: center; 
+        text-decoration: none; 
+        color: white; 
+        border: 2px #3D4142 solid; 
+        border-radius: 40px; 
+        padding: 15px 40px 15px 20px;
+        font-size: 14,5px;
+        background-color: #3D4142;
+
+    }
+    .btn p {
+      padding: 8px;
+      color: grey;
+    }
+    .Google{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .Google img {
+      margin: 0px;
+      padding: 0px;
+      margin-right: 10px; 
+      width: 24px;
+      height: 24px;
+    } 
+    
+    .password-toggle-icon {
+      position: absolute;
+      top: 80%;
+      right: 20px;
+      transform: translateY(-50%);
+      cursor: pointer;
+    }
+    
+    .password-toggle-icon svg {
+      font-size: 18px;
+      line-height: 1;
+      color: #333;
+      transition: color 0.3s ease-in-out;
+      margin-bottom: 20px;
+    }
+    
+    .password-toggle-icon svg:hover {
+      color: #000;
+    }
+
+    .relative {
+      position: relative;
+    }
+
+  
+
+
+    
